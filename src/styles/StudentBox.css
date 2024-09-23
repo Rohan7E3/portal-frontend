@@ -5,55 +5,33 @@
     width: 15.313em;
     border-radius: 10px;
     transition: 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .stud-name{
     margin: 10px;
-    display: flex;
+    text-align: center;
     justify-content: space-between;
 }
 
 .stud-box:hover{
-    transform: scale(1.05)
-}
-
-.checkbox-present{
-    border: 1px solid gray;
-    padding-left: 0.3em;
-    padding-right: 0.3em;
-    transition: 0.3s;
-    cursor: pointer;
-}
-.checkbox-present-clicked{
-    border: 1px solid gray;
-    padding-left: 0.3em;
-    padding-right: 0.3em;
-    transition: 0.3s;
-    cursor: pointer;
-    background-color: green;
-    color: wheat;
-}
-
-.checkbox-absent{
-    border: 1px solid gray;
-    padding-left: 0.3em;
-    padding-right: 0.3em;
-    transition: 0.3s;
-    cursor: pointer;
-}
-.checkbox-absent-clicked{
-    border: 1px solid gray;
-    padding-left: 0.3em;
-    padding-right: 0.3em;
-    transition: 0.3s;
-    cursor: pointer;
-    background-color: red;
-    color: wheat;
-}
-
-.checkbox-present:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px gray;
     background-color: lightgreen;
 }
-.checkbox-absent:hover{
-    background-color: lightcoral;
+
+.stud-box-clicked{
+    background-color: green;
+    display: inline-grid;
+    border: 1px solid black; 
+    width: 15.313em;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    color: wheat;
+    cursor: pointer;
+}
+.stud-box-clicked:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px gray;
+    background-color: green;
 }
