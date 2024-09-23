@@ -1,0 +1,35 @@
+#floating-card{
+    max-width: 50rem;
+    margin-left: 15rem;
+    margin-top: 2rem;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#attendance-btn{
+    width: 100px;
+}
+
+#datee{
+    max-width: 10em;
+    border: 1px solid black;
+}
+
+#subjectt{
+    max-width: 18.75em;
+    border: 1px solid black
+}
+
+.date-class-select{
+    display: flex;
+    flex-direction: row;
+    gap: 1.25em;
+}
+
+#student-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.625em;
+    row-gap: 1.25em;
+}

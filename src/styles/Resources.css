@@ -1,0 +1,26 @@
+.resource-styles .card{
+    width: 11.875rem;
+    cursor: pointer;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+}
+
+.resource-styles .card:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px gray;
+}
+
+.resource-styles .card-img{
+    padding: 0.625em;
+    width: 10em;
+}
+
+.resource-styles .card-text{
+    text-align: center;
+}
+
+.resource-styles .boxes{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}

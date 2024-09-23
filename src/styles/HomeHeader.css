@@ -1,0 +1,21 @@
+#top{
+    z-index: 0;
+    padding-left: 15rem;
+    padding-top: 0.313rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1.875rem;
+}
+#top h1{
+    font-weight: 650;
+    margin: 0;
+}
+.top-button{
+    width: 100px;
+}
+
+.solid{
+    border-top: 3px solid gray;
+    width: 100vw;
+}

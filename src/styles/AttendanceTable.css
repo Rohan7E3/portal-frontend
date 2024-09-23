@@ -1,0 +1,8 @@
+.table{
+    max-width: 200rem;
+}
+
+.attendance-table{
+    display: flex;
+    gap: 1.875em;
+}
